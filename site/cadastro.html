@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro - CYBERTYR</title>
+        <meta charset="utf-8">
+        <link rel="reset" href="reset.css">
+        <link rel="shortcut icon" href="logo.png">
+        <link rel="stylesheet" href="login.css"> 
+    </head>
+
+    <body>
+        <script src="cadastro.js"></script>
+        <image class="logo_imagem" src="logo.png"/>
+        <form class="cadastro" action="">
+            <h1 class="login_txt">CADASTRO</h1>
+
+            <label id="labelNome" class="branco" for="nome">Nome:</label>
+            <input id="nome" class="senha" type="text" placeholder="" required >
+            
+            <label id="labelUsuario" class="branco" for="usuario">Usuário:</label>
+            <input id="usuario" class="senha" type="text" name="usuario" placeholder="E-mail ou usuário" autocomplete="off">
+            
+            <label id="labelSenha" class="branco" for="senha">Senha:</label>
+            <input id="senha" class="senha"  type="password" name="senha" placeholder="Senha" >
+            
+            <label id="labelCofirmarSenha" class="branco" for="Csenha">Confirmar Senha:</label>
+            <input id="Csenha" class="senha"  type="password" name="senha" placeholder="Senha" >
+
+            
+
+
+            
+            <button onclick='render()'>
+                RENDER
+            </button>
+            <button class="entrar" onclick='cadastrar()'>
+                <!-- <input class="entrar" type="submit" value="Entrar"> -->
+                CADASTRAR
+            </button>
+          
+                <!-- <input class="entrar" type="submit" value="Entrar"> -->
+                <a href="login.html">IR LOGIN</a>
+                
+     
+            
+        </form>
+        <div id="msgError">erro</div>
+        <div id="msgSucess">sucess</div>
+    </body>
+</html>

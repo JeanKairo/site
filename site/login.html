@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login - CYBERTYR</title>
+        <meta charset="utf-8">
+        <link rel="reset" href="reset.css">
+        <link rel="shortcut icon" href="logo.png">
+        <link rel="stylesheet" href="login.css"> 
+    </head>
+
+    <body>
+        <script src="login.js"></script>
+        <image class="logo_imagem" src="logo.png"/>
+        <form class="login" action="">
+            <h1 class="login_txt">LOGIN</h1>
+            <label id="labelUsuario" class="branco" for="usuario">Usuário</label>
+            <input id="usuario" class="senha" type="text" name="usuario" placeholder="E-mail ou usuário" autocomplete="off">
+            
+            <label id="labelSenha" class="branco" for="senha">Senha</label>
+            <input id="senha" class="senha"  type="password" name="senha" placeholder="Senha" >
+            <a href="#">esqueci minha senha</a>
+            <!-- <input class="entrar" type="submit" value="Entrar"> -->
+            <button class="entrar" onclick="entrar()">ENTRAR</button>
+
+            <button onclick="render()" class="irCad">
+            <a href="cadastro.html">Não tem conta? clique para se cadastrar</a>
+            </button>
+
+        </form>
+    </body>
+</html>
